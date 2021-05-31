@@ -6,24 +6,24 @@ use App\Services\Service;
 use Exception;
 use GuzzleHttp\Utils;
 
-class Surtii extends Service
+class Scalex extends Service
 {
     /**
-     * Surtii API PHP SDK
+     * Scalex API PHP SDK
      */
     function __construct()
     {
-        $baseURL = $_ENV["SURTII_BASE_URL"];
+        $baseURL = $_ENV["SCALEX_BASE_URL"];
         if (!$baseURL) {
             throw new Exception("Provide a BASE URL", 1);
         }
 
-        $api_key = $_ENV["SURTII_API_KEY"];
+        $api_key = $_ENV["SCALEX_API_KEY"];
         if (!$api_key) {
             throw new Exception("Provide your S-API-KEY", 1);
         }
 
-        $this->network = $_ENV["SURTII_NETWORK_TYPE"];
+        $this->network = $_ENV["SCALEX_NETWORK_TYPE"];
         if (!$api_key) {
             throw new Exception("Provide your Network Type", 1);
         }

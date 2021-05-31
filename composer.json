@@ -1,12 +1,15 @@
 {
-  "name": "surtii/php-sdk",
-  "description": "A base sdk for your Surtii ",
-  "homepage": "https://www.surtii.com/",
+  "name": "scalex/php-sdk",
+  "description": "A base sdk for ScaleX API",
+  "homepage": "https://www.scalex.africa/",
   "keywords": [
     "surtii",
     "sdk",
     "psr18",
-    "psr-18"
+    "psr-18",
+    "php",
+    "escrow",
+    "bitcoin"
   ],
   "type": "library",
   "license": "MIT",
@@ -15,7 +18,7 @@
       "role": "Developer",
       "name": "Solomon Eseme",
       "email": "kaperskyguru@gmail.com",
-      "homepage": "https://www.surtii.com/"
+      "homepage": "https://www.masteringbackend.com/"
     }
   ],
   "minimum-stability": "dev",
@@ -26,12 +29,12 @@
   "require-dev": {},
   "autoload": {
     "psr-4": {
-      "Surtii\\PhpSdk\\": "src/"
+      "Scalex\\PhpSdk\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Surtii\\PhpSdk\\Tests\\": "tests/",
+      "Scalex\\PhpSdk\\Tests\\": "tests/",
       "Demo\\": "demo/"
     }
   },
