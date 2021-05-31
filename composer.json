@@ -1,0 +1,43 @@
+{
+  "name": "surtii/php-sdk",
+  "description": "A base sdk for your Surtii ",
+  "keywords": [
+    "surtii",
+    "sdk",
+    "psr18",
+    "psr-18"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "role": "Developer",
+      "name": "Solomon Eseme",
+      "email": "kaperskyguru@gmail.com",
+      "homepage": "https://www.surtii.com/"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.4|^8.0",
+    "guzzlehttp/guzzle": "^7.3"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "Surtii\\PhpSdk\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Surtii\\PhpSdk\\Tests\\": "tests/",
+      "Demo\\": "demo/"
+    }
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit --testdox --coverage-html build/coverage"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
