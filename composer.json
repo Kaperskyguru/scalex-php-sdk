@@ -1,6 +1,7 @@
 {
   "name": "surtii/php-sdk",
   "description": "A base sdk for your Surtii ",
+  "homepage": "https://www.surtii.com/",
   "keywords": [
     "surtii",
     "sdk",
