@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\Contracts;
+namespace Scalex\Contracts;
 
 interface ServiceImpl
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Services;
+namespace Scalex;
 
-use App\Services\Service;
+use Scalex\Service;
 use Exception;
 use GuzzleHttp\Utils;
 

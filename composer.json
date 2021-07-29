@@ -29,12 +29,12 @@
   "require-dev": {},
   "autoload": {
     "psr-4": {
-      "Scalex\\PhpSdk\\": "src/"
+      "Scalex\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Scalex\\PhpSdk\\Tests\\": "tests/",
+      "Scalex\\Tests\\": "tests/",
       "Demo\\": "demo/"
     }
   },

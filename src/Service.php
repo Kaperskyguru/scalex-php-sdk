@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Services;
+namespace Scalex;
 
-use App\Services\Contracts\ServiceImpl;
+use Scalex\Contracts\ServiceImpl;
 use GuzzleHttp\Client;
 
 class Service implements ServiceImpl
